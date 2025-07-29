@@ -1,0 +1,22 @@
+
+body{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.flag-green{
+    height: 300px;
+    width: 500px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag-red{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
