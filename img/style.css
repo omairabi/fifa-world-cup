@@ -27,7 +27,7 @@
   background-color: black;
   color: white;
   border-radius: 20px;
-  margin: 50px auto;
+  margin: 20px auto;
 }
 
 .banner h1 {
@@ -124,4 +124,49 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+}
+
+/* media */
+@media screen and (max-width: 576px) {
+  .container {
+    margin: 0 20px;
+  }
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .banner-left {
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+  .banner-left p h1 .button-primary {
+    max-width: 100%;
+  }
+  .banner-left p {
+    justify-items: center;
+  }
+  .upcoming-matches {
+    flex-direction: column;
+  }
+  .upcoming-matches-right {
+    grid-template-columns: 1fr;
+  }
+  .upcoming-matches-left {
+    flex-direction: row;
+    width: 50%;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .upcoming-matches-left * {
+    flex: 1;
+  }
+  .upcoming-matches-right {
+    grid-template-columns: 1fr;
+  }
+  .upcoming-matches-left .btn-2 {
+    margin: 0;
+  }
 }
