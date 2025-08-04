@@ -28,6 +28,9 @@
     opacity: 0;
     transform: translate(-20px);
   }
+  5% {
+    color: orange;
+  }
   50% {
     opacity: 0.5;
     transform: translate(-10px);
