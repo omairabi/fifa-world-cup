@@ -27,6 +27,7 @@
   0% {
     opacity: 0;
     transform: translate(-20px);
+    color: yellowgreen;
   }
   5% {
     color: orange;
